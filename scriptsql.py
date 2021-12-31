@@ -20,3 +20,6 @@ def querysql():
     finally:
         if conn is not None:
             conn.close()
+
+if __name__ == '__main__':
+    querysql()

@@ -88,7 +88,7 @@ df = pd.DataFrame(acople_listas)
 dataframe_final = pd.DataFrame(acople_listas)
 dataframe_final.to_parquet('test_engineer.parquet')
 
-## Ejecución script SQL
+## Ejecución script SQL para crear nueva tabla con datos filtrados.
 querysql()
 
 
